@@ -1,2 +1,1 @@
-print("hello")
-print("my name is eminem")
+print('fuck')
