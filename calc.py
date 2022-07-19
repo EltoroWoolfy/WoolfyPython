@@ -1,0 +1,7 @@
+print('hello there, enter first number')
+a = input()
+print('enter second number')
+b = input()
+sum = int(a) + int(b)
+strsum = str(sum)
+print('Your Sum is '+strsum+'')
