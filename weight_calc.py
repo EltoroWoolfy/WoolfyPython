@@ -1,6 +1,8 @@
-weight = input('your weight is? ')
+weight = float(int(input('your weight is? ')))
 type = input('is it kg or pounds? ')
 if type == 'pounds':
-    print('your weight in kg ' + str(float(int(weight)) * 0.45))
+    converted = weight * 0.45
+    print('your weight in kg ' + str(converted))
 elif type ==  'kg':
-    print('your weight in pounds ' + str(float(int(weight)) * 2.20))
+    converted = weight * 2.20
+    print('your weight in pounds ' + str(converted))
