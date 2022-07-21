@@ -1,5 +1,5 @@
-money = 1000
-if money < 500:
-    print('ask some money to parents, you in fuck')
+money = 450
 if money > 500:
-    print('well played')
+    print('good')
+elif money > 400: # our money between 400 and 500 
+    print('meh')
